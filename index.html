@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <title> Intro section with dropdown navigation </title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo-img">
+        <a href="index.html" class="logo"><img src="images/logo.svg" alt="site logo"></a>
+      </div>
+      <div class="menubar">
+          <ul class="nav-links">
+            <li class="feature feature-area"> Features <span>
+              <img class="arrowdown" src="images/icon-arrow-down.svg" alt="down arrow"> 
+              <img class="arrowup" src="images/icon-arrow-up.svg" alt="up arrow"> </span>
+              <ul class="dropdown feat-container">
+                <li><a href="#"><img src="images/icon-todo.svg" alt="todo icon"> Todo List </a></li>
+                <li><a href="#"><img src="images/icon-calendar.svg" alt="calendaricon"> Calendar </a></li>
+                <li><a href="#"><img src="images/icon-reminders.svg" alt="reminder icon"> Reminder </a></li>
+                <li><a href="#"><img src="images/icon-planning.svg" alt="planning icon"> Planning </a></li>
+              </ul>
+            </li>
+            <li class="company comp-area"> Company <span>
+              <img class="arrowdown" src="images/icon-arrow-down.svg" alt="down arrow">
+              <img class="arrowup" src="images/icon-arrow-up.svg" alt="down up"> </span>
+              <ul class="dropdown comp-box">
+                <li><a href="#"> History </a></li>
+                <li><a href="#"> Our Team </a></li>
+                <li><a href="#"> Blog </a></li>
+              </ul>
+            </li>
+            <li class="Careers"><a href="#"> Careers </a></li>
+            <li class="about"><a href="#"> About </a></li>
+          </ul>
+          <div class="right-side-btns">
+            <li class="login"><a href="#"> Login </a></li>
+            <li class="reg-btn"><a href="#"> Register </a></li>
+          </div>
+        
+
+        <!-- nav mobile structure -->
+        <button class="hamburger menu-btn">
+          <img class="open-btn" role="presentation" src="images/icon-menu.svg" alt="">
+          <img class="close-btn" role="presentation" src="images/icon-close-menu.svg" alt="">
+        </button>
+        <div class="mob-nav showMenu">
+          <div class="mob-white-bg">
+            <ul class="mob-links">
+              <li class="feature feature-area"> Features <span>
+                <img class="arrowdown" src="images/icon-arrow-down.svg" alt="down arrow">
+                <img class="arrowup" src="images/icon-arrow-up.svg" alt="up arrow"> </span> 
+                <ul class="dropdown toggle-features feature-box">
+                  <li><a href="#"><img src="images/icon-todo.svg" alt="todo icon"> Todo Liat </a></li>
+                  <li><a href="#"><img src="images/icon-calendar.svg" alt="calendar icon"> Calendar </a></li>
+                  <li><a href="#"><img src="images/icon-reminders.svg" alt="reminder icon"> Reminder </a></li>
+                  <li><a href="#"><img src="images/icon-planning.svg" alt="planning icon"> Planning </a></li>
+                </ul>
+              </li>
+              <li class="comp comp-area"> Company <span>
+                <img class="arrowdown" src="images/icon-arrow-down.svg" alt="down arrow">
+                <img class="arrowup" src="images/icon-arrow-up.svg" alt="up arrow"> </span>
+                <ul class="dropdown toggle-company comp-box">
+                  <li><a href="#"> History </a></li>
+                  <li><a href="#"> Our Team </a></li>
+                  <li><a href="#"> Blog </a></li>
+                </ul>
+              </li>
+              <li class="Careers"><a href="#"> Careers </a></li>
+              <li class="about"><a href="#"> About </a></li>
+            </ul>
+            <div class="mob-side-btns">
+              <li class="login"><a href="#"> Login </a></li>
+              <li class="reg-btn"><a href="#"> Register </a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="main-hero">
+      <div class="hero-image">
+        <img class="image-desktop" src="images/image-hero-desktop.png" alt="">
+        <img class="image-mob" src="images/image-hero-mobile.png" alt="">
+      </div>
+
+      <div class="hero-text">
+        <h1 class="head-text"> Make <br> remote work </h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.</p>
+        <button class="main-cta"> Learn more </button>
+      </div>
+
+      <!-- clients -->
+      <div class="clients">
+        <img src="images/client-databiz.svg" alt="client logo">
+        <img src="images/client-audiophile.svg" alt="client logo">
+        <img src="images/client-meet.svg" alt="client logo">
+        <img src="images/client-maker.svg" alt="client logo">
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Cocobassey" target="_blank"> Cococodes </a>.
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
