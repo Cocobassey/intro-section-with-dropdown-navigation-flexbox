@@ -1,0 +1,242 @@
+@media (max-width: 810px) {
+    .logo {
+        margin-left: 2em;
+    }
+    .menubar {
+        left: 130px;
+    }
+    .nav-links > li {
+        width: 85px;
+        font-size: 1.4rem;
+    }
+    .right-side-btns {
+        margin-left: 14em;
+    }
+    .right-side-btns li {
+        width: 85px;
+        font-size: 1.4rem;
+    }
+    .navbar {
+        padding: 1.4em 0;
+        margin-bottom: .5em;
+    }
+    .feature .dropdown {
+        margin-top: .5em;
+        padding: 0 .5em;
+    }
+    .company .dropdown {
+        margin-top: .5em;
+        padding: 0 .5em;
+        left: 85px;
+    }
+    .dropdown li {
+        font-size: 1.2rem;
+        width: 80px;
+    }
+    .feature .arrowup {
+        transform: translate(32px, -23px);
+    }
+    .company .arrowup {
+        transform: translate(32px, -23px);
+    }
+    .main {
+        margin: 9em 0 1em;
+        padding: 0 6em;
+    }
+    .main-hero {
+        padding: 8em 0;
+        margin-left: 5em;
+    }
+    .image-desktop {
+        width: 300px;
+    }
+    .hero-image {
+        width: 45%;
+    }
+    .hero-text {
+        margin-bottom: 6em;
+        max-width: 350px;
+    }
+    .head-text {
+        font-size: 5rem;
+        margin-bottom: .3em;
+    }
+    .hero-text p {
+        font-size: 1.4rem;
+        margin-bottom: 1.5em;
+    }
+    .main-cta {
+        font-size: 1.4rem;
+        padding: .5em 1em;
+    }
+    .clients {
+        bottom: 40px;
+        max-width: 450px;
+    }
+    .clients img {
+        margin-right: 1em;
+        max-width: 100%;
+        height: auto;
+        width: 70px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 481px) {
+    .logo {
+        margin-left: 2em;
+    }
+    .mob-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .3);
+        transform: translateX(0%);
+        transition: all 0.3s ease-in;
+    }
+
+    .showMenu {
+        transform: translateX(100%);
+    }
+    .mob-white-bg {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 70%;
+        height: 100vh;
+        background-color: var(--Almostwhite);
+    }
+    .mob-links {
+        margin: 6em 0; 
+    }
+    .mob-links > li {
+        padding: .6em 1em; 
+        text-align: start;
+        font-size: 1.6rem;
+        list-style: none;
+        cursor: pointer;
+    }
+    .mob-side-btns {
+        margin: 3em 1.3em 0;
+    }
+    .mob-side-btns > li {
+        text-align: center;
+        padding: .6em 1em;
+        font-size: 1.6rem;
+        list-style: none;
+        cursor: pointer;
+    }
+    .toggle-features {
+        display: none;
+    }
+    .toggle-company {
+        display: none;
+    }
+    .mob-links .feature .arrowup {
+        visibility: hidden;
+        top: 73px;
+        left: 90px
+    }
+    .mob-links .comp .arrowup {
+        visibility: hidden;
+    }
+    .nav-links {
+        display: none;
+    }
+    .feature .dropdown {
+        margin-top: 1.5em;
+        padding: 0 .5em;
+        position: relative;
+        left: 10px;
+    }
+    .comp .dropdown {
+        margin-top: 1.5em;
+        padding: 0 .5em;
+        border-radius: 5px;
+        position: relative;
+        left: 10px;
+        background: var(--Almostwhite);
+        box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .1);
+    }
+    .comp .arrowup {
+        transform: translate(-14px, -6px );
+    }
+    .menubar .nav-links, .right-side-btns {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        position: fixed;
+        z-index: 100;
+        top: 15px;
+        right: 12px;
+        padding: .25em;
+        background: var(--Almostwhite);    
+        outline: none;
+        appearance: none;
+        border: none;
+        cursor: pointer;
+    }
+    .close-btn {
+        display: none;
+        position: absolute;
+        top: 0px;
+        right: 5px;
+    }
+    .image-desktop {
+        display: none;
+    }
+    .image-mob {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .main {
+        width: 100%;
+        margin: 0 auto 5em;
+        padding: 0;
+    }
+    .main-hero {
+        padding: 7em 0;
+        margin-left: 0;
+    }
+    .hero-image {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+    .hero-text {
+        width: 100%;
+        padding: 0 .4em;
+        margin: 5em auto;
+    }
+    br {
+        display: none;
+    }
+    .head-text {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .hero-text p {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .main-cta {
+        display: block;
+        margin: auto;
+    }
+    .clients {
+        text-align: center;
+        width: 100%;
+        max-width: none;
+    }
+    .clients img {
+        max-width: 100%;
+        width: 65px;
+        margin-right: 1.2em;
+    }
+}
