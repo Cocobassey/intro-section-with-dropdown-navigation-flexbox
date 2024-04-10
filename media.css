@@ -1,4 +1,4 @@
-@media (max-width: 810px) {
+@media (min-width: 786px) and (max-width: 810px) {
     .logo {
         margin-left: 2em;
     }
